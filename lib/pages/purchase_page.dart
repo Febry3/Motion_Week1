@@ -20,6 +20,7 @@ class Purchase extends StatelessWidget {
                         Icons.chevron_left_outlined,
                         size: 40,
                       ),
+                      // ignore: sized_box_for_whitespace
                       Container(
                         width: 80,
                         height: 80,
@@ -35,6 +36,7 @@ class Purchase extends StatelessWidget {
                   const SizedBox(
                     height: 20,
                   ),
+                  // ignore: sized_box_for_whitespace
                   Container(
                     width: 380,
                     height: 400,

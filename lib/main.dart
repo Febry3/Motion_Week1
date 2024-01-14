@@ -1,6 +1,7 @@
+import 'package:febry_twenido_f_motionintern_week_1/pages/home_page.dart';
 import 'package:febry_twenido_f_motionintern_week_1/pages/purchase_page.dart';
 import 'package:febry_twenido_f_motionintern_week_1/pages/transaction_pages.dart';
-import 'package:febry_twenido_f_motionintern_week_1/pages/home_page.dart';
+// import 'package:febry_twenido_f_motionintern_week_1/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {

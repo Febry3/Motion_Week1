@@ -11,7 +11,7 @@ class Transaction extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 8),
+          padding: const EdgeInsets.symmetric(horizontal: 22),
           child: Column(
             children: [
               Row(
@@ -29,7 +29,7 @@ class Transaction extends StatelessWidget {
                   ),
                   const Icon(
                     CupertinoIcons.share_up,
-                    size: 30,
+                    size: 34,
                   ),
                 ],
               ),
@@ -39,6 +39,7 @@ class Transaction extends StatelessWidget {
               Container(
                 width: 378,
                 height: 326,
+                padding: const EdgeInsets.symmetric(horizontal: 22),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(10),
@@ -185,6 +186,8 @@ class Transaction extends StatelessWidget {
               Container(
                 height: 188,
                 width: 378,
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 20, vertical: 25),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(10),
@@ -203,98 +206,94 @@ class Transaction extends StatelessWidget {
                     ),
                   ],
                 ),
-                child: Padding(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const Text(
-                        "Detail Pesanan",
-                        style: TextStyle(
-                          fontFamily: "Poppin",
-                          fontWeight: FontWeight.w700,
-                          fontSize: 16,
-                        ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Text(
+                      "Detail Pesanan",
+                      style: TextStyle(
+                        fontFamily: "Poppin",
+                        fontWeight: FontWeight.w700,
+                        fontSize: 16,
                       ),
-                      const SizedBox(
-                        height: 15,
+                    ),
+                    const SizedBox(
+                      height: 15,
+                    ),
+                    // ignore: sized_box_for_whitespace
+                    Container(
+                      height: 88,
+                      width: 338,
+                      child: const Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text(
+                                "Jenis Pesanan",
+                                style: TextStyle(
+                                  fontFamily: "Poppin",
+                                  fontWeight: FontWeight.w500,
+                                  fontSize: 12,
+                                ),
+                              ),
+                              Text(
+                                "2x Frappucino - Monte",
+                                style: TextStyle(
+                                  fontFamily: "Poppin",
+                                  fontWeight: FontWeight.w700,
+                                  fontSize: 12,
+                                ),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text(
+                                "Nama Pemesan",
+                                style: TextStyle(
+                                  fontFamily: "Poppin",
+                                  fontWeight: FontWeight.w500,
+                                  fontSize: 12,
+                                ),
+                              ),
+                              Text(
+                                "Slamet K0pling",
+                                style: TextStyle(
+                                  fontFamily: "Poppin",
+                                  fontWeight: FontWeight.w700,
+                                  fontSize: 12,
+                                ),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text(
+                                "Total Pesanan",
+                                style: TextStyle(
+                                  fontFamily: "Poppin",
+                                  fontWeight: FontWeight.w500,
+                                  fontSize: 12,
+                                ),
+                              ),
+                              Text(
+                                "Rp. 58,000",
+                                style: TextStyle(
+                                  fontFamily: "Poppin",
+                                  fontWeight: FontWeight.w700,
+                                  fontSize: 12,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
                       ),
-                      // ignore: sized_box_for_whitespace
-                      Container(
-                        height: 88,
-                        width: 338,
-                        child: const Column(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                Text(
-                                  "Jenis Pesanan",
-                                  style: TextStyle(
-                                    fontFamily: "Poppin",
-                                    fontWeight: FontWeight.w500,
-                                    fontSize: 12,
-                                  ),
-                                ),
-                                Text(
-                                  "2x Frappucino - Monte",
-                                  style: TextStyle(
-                                    fontFamily: "Poppin",
-                                    fontWeight: FontWeight.w700,
-                                    fontSize: 12,
-                                  ),
-                                ),
-                              ],
-                            ),
-                            Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                Text(
-                                  "Nama Pemesan",
-                                  style: TextStyle(
-                                    fontFamily: "Poppin",
-                                    fontWeight: FontWeight.w500,
-                                    fontSize: 12,
-                                  ),
-                                ),
-                                Text(
-                                  "Slamet K0pling",
-                                  style: TextStyle(
-                                    fontFamily: "Poppin",
-                                    fontWeight: FontWeight.w700,
-                                    fontSize: 12,
-                                  ),
-                                ),
-                              ],
-                            ),
-                            Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                Text(
-                                  "Total Pesanan",
-                                  style: TextStyle(
-                                    fontFamily: "Poppin",
-                                    fontWeight: FontWeight.w500,
-                                    fontSize: 12,
-                                  ),
-                                ),
-                                Text(
-                                  "Rp. 58,000",
-                                  style: TextStyle(
-                                    fontFamily: "Poppin",
-                                    fontWeight: FontWeight.w700,
-                                    fontSize: 12,
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ],
-                        ),
-                      ),
-                    ],
-                  ),
+                    ),
+                  ],
                 ),
               ),
               const SizedBox(
@@ -313,7 +312,7 @@ class Transaction extends StatelessWidget {
                     style: TextStyle(
                         color: Color(0xFFFFFFFF),
                         fontSize: 20,
-                        fontFamily: "Poppin",
+                        fontFamily: "Raleway",
                         fontWeight: FontWeight.w500),
                   ),
                 ),
