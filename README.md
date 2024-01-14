@@ -9,5 +9,5 @@ Transaction page sebagai tugas tambahan
 
 Home page
 ![image](https://github.com/Febry3/Motion_Week1/assets/121351049/ec750996-286a-449f-b223-24bd1a10f8be)
-minus bot nav sm shadow bawah kepotong
+minus bot nav sm shadow bawah kepotong (sy tidak tau mengapa)
 
