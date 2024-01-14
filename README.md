@@ -7,9 +7,7 @@ Purchase page dari pemateri [Bg Indra]
 Transaction page sebagai tugas tambahan
 ![image](https://github.com/Febry3/Motion_Week1/assets/121351049/30334067-4218-4f61-8638-8701dc0ac11c)
 
-
-
-
-
-Home page lagi dicoba ehehe
+Home page
+![image](https://github.com/Febry3/Motion_Week1/assets/121351049/ec750996-286a-449f-b223-24bd1a10f8be)
+minus bot nav sm shadow bawah kepotong
 
